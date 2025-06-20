@@ -111,3 +111,56 @@ body {
   color: #5C5C5C;
   line-height: 1.5;
 }
+
+/* Proficiency Section */
+.proficiency-box {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.07);
+  padding: 18px 16px 18px 16px;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.section-title {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #232723;
+}
+
+.proficiency-levels {
+  font-size: 13px;
+  color: #232723;
+  margin-bottom: 14px;
+  display: flex;
+  gap: 10px;
+}
+
+.proficiency-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.proficiency-label {
+  font-size: 13px;
+  min-width: 90px;
+  color: #232723;
+}
+
+.proficiency-bar {
+  flex: 1;
+  height: 10px;
+  background: #E7F0EC;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.proficiency-bar span {
+  display: block;
+  height: 100%;
+  background: #4A8B70;
+  border-radius: 5px;
+}
