@@ -34,3 +34,12 @@ body {
   background-size: cover;
   z-index: -1;
 }
+
+/* Main Container */
+.main-container {
+  width: 100%;
+  max-width: 402px;
+  margin: 32px auto;
+  background: transparent;
+  padding: 0;
+}
