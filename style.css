@@ -671,4 +671,34 @@ body {
   }
 }
 
+/* Desktop styles */
+@media (min-width: 900px) {
+  .main-container {
+    max-width: 700px;
+  }
+  .projects-box {
+    border-radius: 29px;
+    padding: 43px 29px;
+    max-width: 900px;
+  }
+  .projects-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .project-card {
+    border-radius: 29px;
+    min-width: 0;
+    flex: 1 1 0;
+    padding: 27px 21px;
+    font-size: 19px;
+    min-height: 260px;
+  }
+  .project-title {
+    font-size: 19px;
+    margin-bottom: 8px;
+  }
+}
+
+
 
