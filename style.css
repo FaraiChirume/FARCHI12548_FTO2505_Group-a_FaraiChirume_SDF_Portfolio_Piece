@@ -43,3 +43,22 @@ body {
   background: transparent;
   padding: 0;
 }
+
+/* Section Containers */
+.section-container,
+.profile-section,
+.proficiency-box,
+.skills-box,
+.projects-box,
+.education-section,
+.tools-section,
+.experience-section,
+.contact-section {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.07);
+  margin-bottom: 18px;
+  padding: 16px 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
