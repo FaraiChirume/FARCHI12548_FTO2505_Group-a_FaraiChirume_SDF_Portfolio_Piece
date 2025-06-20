@@ -164,3 +164,30 @@ body {
   background: #4A8B70;
   border-radius: 5px;
 }
+
+/* Skills Section */
+.skills-box {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.07);
+  padding: 18px 16px 18px 16px;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background: #E7F0EC;
+  border-radius: 40px;
+  padding: 7px 16px;
+  font-size: 13px;
+  color: #232723;
+  font-weight: 500;
+  margin-bottom: 4px;
+  display: inline-block;
+}
